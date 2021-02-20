@@ -38,10 +38,15 @@
                     </li><!--para lista ordenadas, enumera los elementos  -->
                 </ol>
                 <section>
+                    <!-- Figure es la etiqueta que debe contener la fotos -->
                     <figure>
                         <!-- etiqueta para las imagenes alt sirve para dar una descripción -->
                         <img src="./css/imagen.png" alt="Es una imagen de un perrito" />
                     </figure>
+                    <!-- agrega una pequeña descripción de la imagen -->
+                    <figcaption>
+                        Esta es una imagen de perrito
+                    </figcaption>
                 </section>
             </main>
             <footer>
@@ -53,6 +58,82 @@
             <h1>Soy un título en desorden</h1>
             <!-- Etiqueta de links -->
             <a href="#">soy un link</a>
+        <section>
+            <!-- el atributo #t= posiciona el inicio de la reproducción en le segundo que se indica -->
+            <video controls preload="auto">
+                <!-- la etiquta source permite incluir varias fuentes del video, para 
+                evitaar que si el navegador no es compatible con algún formato del vídeo
+                se pierda el vídeo -->
+                <source src="./telegram-cloud-document-1-5539859134339350537.mp4#t=10,18" /> 
+            </video>
+        </section>
+        <section>
+            <!-- la etiqueta form es la buena practica de formularios -->
+            <form action="">
+                <label for="Nombre">
+                    <!-- podemos poner algún texto pequeño con la etiqueta span -->
+                    <span>¿Cuál es tu Nombre?</span>
+                    <input type="text" id="Nombre" placeholder="Tu nombre" />
+                </label>
+                <label for="inicio-platzi">
+                    <span>¿Qué día comenzaste en platzi?</span>
+                    <input type="date" id="inicio-platzi" />
+                </label>
+                <label for="horario">
+                    <span>¿En qué horario te gusta estudiar?</span>
+                    <input type="time" id="horario" />
+                </label>
+            </form>
+        </section>
+        <section>
+            <form action="">
+                <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" id="hora" name="hora">
+                </label>
+                <label for="dia">
+                    <span>Día</span>
+                    <input type="date" id="dia" name="dia">
+                </label>
+                <label for="Semana">
+                    <span>Semana</span>
+                    <input type="week" id="Semana" name="Semana">
+                </label>
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" id="mes" name="mes">
+                </label>
+                <input type="submit" />
+            </form>
+        </section>
+        <section>
+            <form action="">
+                <label for="calendario">
+                    <span>Calendario</span>
+                    <input type="datetime-local" id="calendario" name="calendario">
+                </label> 
+            </form>
+        </section>
+        <!-- <select name="cursos" id="">
+            <option value="Javascript">Javascript</option>
+            <option value="Html5">Html5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web standards">Web standards</option>
+        </select> -->
+        <!-- se genera una una lista de opciones seleccionables pero se puede escribir en él
+        por si son muchas opciones en la lista -->
+        <input list="cursos">
+            <datalist id="cursos">
+                <option value="Javascript">Javascript</option>
+                <option value="Html5">Html5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web standards">Web standards</option>
+            </datalist>
 
+        <section>
+            <input type="submit" value="Nombres"/>
+
+            <button type="submit">Mándalo</button>
+        </section>
         </body>
     </html>
