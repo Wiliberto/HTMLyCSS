@@ -1,0 +1,23 @@
+/* por etiqueta o elemento de html */
+p {
+color: blue;
+font-size: 30px;
+}
+
+/* class */
+
+.parrafo {
+    color: red;
+}
+
+/* ID */
+#texto {
+    color: rgb(0, 145, 255);
+    font-size: 24;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left:0 ;
+}

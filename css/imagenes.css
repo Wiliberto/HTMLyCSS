@@ -1,0 +1,31 @@
+.pina {
+    image-orientation: 45deg;
+    /* size: 40px; */
+}
+
+.carne {
+    font-size: 50px;
+    color: aquamarine;
+    font-family: Cambria;
+}
+
+.verdura {
+    font-size: 45px;
+    color: brown;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+}
+
+.fruta{
+    font-size: 55px;
+    color: blueviolet;
+    font-family: Verdana;
+    font-style: inherit;
+}
+
+figcaption {
+    color: black;
+    font-size: 12px;
+    font-style: normal;
+    font-family: arial;
+}
