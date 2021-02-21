@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2
+{
+    color: blue;
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.marzo {
+    background-color: yellowgreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    border-radius: 2px;
+    padding: 25px;
+    text-align: center;
+
+}
+.descripcion {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: brown;
+    background-color: black;
+}
+
+/* combinador de etiquenas cercanas, a todos las etiquetas p que estén dentro un h3 se le
+aplicarán estos estilos
+h3 + p {
+    color:antiquewhite ;
+} */
+/* combinador de hermanos generales */
+/* h3 ~ p {
+    color: red; 
+} */
+
+/* combinador de hijos directos */
+/* main > h2 {
+    color: aqua;
+} */
+   
+html{
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
