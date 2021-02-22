@@ -1,0 +1,69 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    /* permite que el contenido que esté en el contenedor sea flexible y se aline uno detrás
+    delo otro */
+    display: flex;
+    /*  */
+    /* align-items: baseline; */
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.box {
+    flex-basis: 10rem;
+    flex-grow: 3;
+    height: 10rem;
+    text-align: center;
+} 
+
+.box1 {
+    background-color: aqua;  
+    position: sticky;
+    
+}
+
+.box2 {
+    background-color: rgb(255, 153, 0);   
+    /* flex-grow: 1; */
+    width: 20%;
+}
+
+.box3 {
+    background-color: rgb(255, 0, 140);  
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+
+.box4 {
+    background-color: rgb(34, 0, 255);   
+
+}
+
+.box5 {
+    background-color: rgb(55, 255, 0);  
+}
+
+.footer {
+    background-color: rgb(15, 74, 74); 
+    align-items: baseline;
+    position: sticky;
+    height: 5rem;
+}
+

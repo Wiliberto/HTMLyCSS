@@ -46,11 +46,20 @@ font-size: 30px;
 .main-nav__item a::after{
     content: " | ";
 }
-
+ 
+/* variables */
+:root {
+    --primary-color:#003476;
+    --secondary-color: #b4d2f2;
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+  
+
 }
 
 main {
