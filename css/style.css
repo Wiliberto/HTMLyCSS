@@ -17,7 +17,7 @@ font-size: 30px;
 }
 
 .main-nav {
-    margin-top: 10px;
+    /* margin-top: 1.0rem; */
     list-style: none;
     padding-left:0 ;
     background-color: #13a4a4;
@@ -45,4 +45,25 @@ font-size: 30px;
 /* pseudoelemento */
 .main-nav__item a::after{
     content: " | ";
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500rem;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: aliceblue;
 }
