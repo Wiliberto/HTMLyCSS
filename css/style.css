@@ -54,6 +54,7 @@ font-size: 30px;
     --header-size: 4rem;
     --font: 1.8rem;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
